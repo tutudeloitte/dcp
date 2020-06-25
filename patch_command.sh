@@ -8,6 +8,3 @@ yum install <version-name>
 # Remove a package
 yum remove <package-name>
 
-# Common errors
-# yum + unpacking of archive failed: https://unix.stackexchange.com/questions/407740/yum-unpacking-of-archive-failed
-# Package route is a directory on your machine, delete that directory
