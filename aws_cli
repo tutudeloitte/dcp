@@ -1,0 +1,2 @@
+# List detail about the current AWS profile
+aws configure list
