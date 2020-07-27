@@ -1,2 +1,6 @@
 # List detail about the current AWS profile
 aws configure list
+
+# Switch kubectl context to an EKS
+# Source: https://aws.amazon.com/premiumsupport/knowledge-center/eks-cluster-connection/
+aws eks --region region update-kubeconfig --name cluster_name
